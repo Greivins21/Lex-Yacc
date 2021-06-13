@@ -1,6 +1,6 @@
-Compilación del programa:
-lex lex.l
-yacc yacc.y -d
-gcc lex.yy.c y.tab.c -w -o g3
-Ejecución del programa: 
+Compilación del programa en la terminal:
+	lex lex.l
+	yacc yacc.y -d
+	gcc lex.yy.c y.tab.c -w -o g3
+Ejecución del programa en la terminal: 
 ./g3 

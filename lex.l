@@ -1,8 +1,8 @@
 %{
-   /* Definition section */
+   /* Seccion de definiciones*/
    #include "y.tab.h"
 %}
-/* Rule Section */
+/*Definicioes de reglas */
 /*numero = 0|1|2|3
 /*ra = parentesis redondos abiertos*/
 /*rc = parentesis redondos cerrados*/
@@ -20,6 +20,7 @@
 \n {return NL;}
 .  {return yytext[0];}
 %%
+/*Definicion por defecto de yywrap*/
 int yywrap() 
  { 
   return 1; 
